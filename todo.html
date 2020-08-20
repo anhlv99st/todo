@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>To do list</title>
+	<link rel="stylesheet" href="todo.css">
+	<script language ="javascript" src="todo.js"></script>
+	<link rel ="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>	
+	<!-- Start content -->
+	<div class="borderwrapper">
+		<div class="wrapper">
+			<div class="content">
+				<div class = "header">
+					<h1>My to do</h1>				
+					<input id="myInput" type="text" height="50px" weight="100px"  
+					placeholder="Input task name then task Enter to add" size="60"onKeyPress="onPress_ENTER()"><br>
+				</div>
+			<div id ="item" class = "Content-body">
+				
+				<div class = "content-lign">
+					<input  type ="checkbox">
+					<p class="writte">Buy car signal lights</p>
+					<div class = "button">
+						<button  type="button" onclick="delete_item(event)"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+						<button  type="button" ><i class="fa fa-pencil" aria-hidden="true"></i></button>
+					</div>
+				</div>
+			
+			</div>
+			
+		</div>	
+		</div>
+	</div>
+</body>
+</html>
